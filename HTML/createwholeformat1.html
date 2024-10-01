@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: orange;">
+     <form action="done.html" method="get"><br><br>
+        <table cellspacing="40" cellpadding="5">
+            <tr>
+                <td><label name="fname">First Name:</label></td>
+                <td><input type="text" name="fname" placeholder="enter a  first Name"></td>
+            </tr>
+            <tr>
+                <td><label name="mname">Middle Name:</label></td>
+                <td><input type="text" name="mname" placeholder="enter a middle name"></td>
+            </tr>
+            <tr>
+                <td><label name="lname">Last Name:</label></td>
+                <td><input type="text" name="lname" placeholder="enter a last name"></td>
+            </tr>
+
+
+
+            <tr>
+                <td><label name="course">select your Course:</label></td>
+                <td>
+            <select name="course">
+                <option>c</option>
+                <option>c++</option>
+                <option>plane java</option>
+                <option>java with AL & ML</option>
+                <option>Data science</option>
+            </select>
+            </td>
+            </tr>
+
+
+
+            <tr>
+               <td><label name="gender">Gender:</label></td>
+               <td>
+               <input type="radio" name="gender" value="Male"required>
+               <label name="gender">Male</label>
+               <input type="radio" name="gender" value="Female">
+               <label name="gender">Female</label>
+               <input type="radio" name="gender" value="Other">
+               <label name="gender">Other</label>
+               </td>
+            </tr>
+
+
+
+            <tr>
+               <td><label for="phone">Phone No.:</label></td>
+               <td>
+               <input type="text" value="+91" style="width: 30px" readonly />
+               <input type="text" placeholder="Enter your mobile number"pattern="^\d{10}$" minlength="10"
+                        maxlength="10"required/>
+                </td>
+            </tr>
+
+
+
+            <tr>
+                <td><label name="adds">Address:</label></td>
+                <td><textarea name="text" rows="5" cols="70"></textarea></td>
+            </tr>
+
+
+
+            <tr>
+                <td><label name="email">Email:</label></td>
+                <td><input type="text" name="email" placeholder="enter a email"required></td>
+            </tr>
+            <tr>
+                <td><label name="pass">Password:</label></td>
+                <td><input type="text" name="pass" placeholder="enter a password"></td>
+            </tr>
+            <tr>
+                <td><label name="retype">re-enter password:</label></td>
+                <td><input type="text" name="retype"placeholder="reenter password"></td>
+            </tr>
+
+
+
+            <tr>
+                <td><input type="submit"></td>
+            </tr>
+</table>    
+</form>
+</body>
+</html>

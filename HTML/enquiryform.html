@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>enquiry form</title>
+</head>
+<body style="background-image: url(enquiry_bg.jpg);">
+    <div style="display: flex; justify-content: center; align-items: center; height:100;">
+    <form action="done.html" method="get">
+    <fieldset style="border:20px solid pink; padding:100px; display:inline-block">
+            <table cellspacing=20" cellpadding="10" align="center">
+                <legend align="center">
+                Enquiry Form</legend>
+
+                <tr>
+                    <td><label name="name">Name:</label></td>
+                    <td><input type="text" name="name"> </td>
+                </tr>
+
+                <tr>
+                    <td><label name="email">Email:</label></td>
+                    <td><input type="text" name="email"> </td>
+                </tr>
+
+                <tr>
+                    <td><label name="phno">Phone No:</label></td>
+                    <td><input type="text" name="phno" maxlength="10"> </td>
+                </tr>
+
+                <tr>
+                    <td><label name="course">you are selected:</label></td>
+                    <td>
+                        <select name="course">
+                            <option>Digital printing</option>
+                            <option>Offset printing</option>
+                            <option>large format printing</option>
+                            <option>Sunboard printing</option>
+                            <option>Oneway printing</option>
+                            <option>Unipole</option>
+                        </select>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td><label name="message">Message:</label></td>
+                    <td><textarea name="text" rows="4" cols="22"
+                         placeholder="type your message here..."></textarea></td>
+                </tr>
+
+                <tr>
+                    <th><input type="submit" name="submit enquiry "> </th>
+                </tr>
+            </table>
+
+            <footer align="center">
+                <a href="homepage.html">Back to home</a>
+            </footer>
+         </fieldset>
+    </form>   
+    </div>
+</body>
+</html>
