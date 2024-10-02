@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+}
+
+.d1{
+    border: 5px solid pink;
+    width: 400px;
+    padding: 50px;
+    margin: 10px auto;
+    background-color: cornsilk;
+}
+
+#demo2{
+    border-collapse: separate;
+    border-spacing: 20px;
+}
+
+td{
+    padding: 10px;
+}
+
+body{
+    background-color: aquamarine;
+}
