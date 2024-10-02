@@ -1,0 +1,27 @@
+body{
+    background-color: blue;
+}
+
+h1{
+    text-align: center;
+}
+
+p strong{
+    color: black;
+}
+
+.d2{
+   border-collapse: separate;
+    border-spacing: 5px;
+}
+td{
+    padding:10px;
+}
+
+#demo{
+    border: 5px solid green;
+    width: 400px;
+    padding: 50px;
+    margin: 20px auto;
+    background-color: beige;
+}
