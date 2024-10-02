@@ -1,0 +1,20 @@
+h3,h4{
+    background-color: aqua;
+    text-align: center;
+}
+#demo2{
+    color: blue;
+    text-align: center;
+}
+table{
+    margin: 0 auto;
+    padding: 10px;
+  
+}
+.d1{
+    border: 5px solid red;
+    width: 500px;
+    padding: 40px;
+    margin: 20px auto;
+    background-color: wheat;
+}
