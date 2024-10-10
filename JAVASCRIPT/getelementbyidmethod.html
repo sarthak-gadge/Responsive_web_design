@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>getelementbyid</title>
+</head>
+<body>
+    <form>
+    <label>number</label>
+    <input type="text" id="num">
+
+    <input type="button" value="square" onclick="square()">
+    </form>
+
+    <script>
+        function square()
+        {
+            var n=document.getElementById("num").value;
+            document.write(n*n);
+        }
+    </script>
+
+
+
+    <!-- <form>
+        <label>Number</label>
+        <input type="text" id="num">
+
+        <input type="button" value="cube" onclick="cube()">
+        </form>
+
+
+        <script>
+            function cube()
+            {
+                var n=document.getElementById("num").value;
+                document.write(n*n*n);
+
+            }
+        </script> -->
+
+
+    </form>
+
+</body>
+</html>
