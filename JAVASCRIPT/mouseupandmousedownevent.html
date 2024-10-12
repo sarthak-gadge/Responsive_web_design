@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse Up & Mouse Down</title>
+</head>
+<body>
+    <h2>Mouse Event</h2>
+    <p id="p1" onmousedown="down()" onmouseup="up()" >on mouse down event and
+        on mouse up event</p>
+
+    <script>
+        function down()
+        {
+            document.getElementById('p1').style.color="red";
+        }
+
+        function up()
+        {
+            document.getElementById('p1').style.color="blue";
+        }
+    </script>    
+</body>
+</html>
