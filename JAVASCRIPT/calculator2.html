@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator 2</title>
+    <style>
+        table,td,tr,th{
+            border: 1px solid brown;
+            background-color: blanchedalmond;
+            padding: 5px;
+            margin: auto;
+            
+        }
+    </style>
+</head>
+<body>
+    <h2>calculator</h2>
+    <form name="calcy">
+        <table>
+            <tr>
+                <td colspan="4"><input type=text Name= "display"></td>
+            </tr>
+
+            <tr>
+                <td><input type="button" value="0" OnClick="calcy.display.value+='0'"></td>
+                <td><input type="button" value="1" onclick="calcy.display.value+='1'"></td>
+                <td><input type="button" value="2" onclick="calcy.display.value+= '2'"></td>
+                <td><input type="button" value="+" onclick="calcy.display.value+= '+'"></td>
+            </tr>
+
+
+            <tr>
+                <td><input type="button" value="3" onclick="calcy.display.value+= '3'"></td>
+                <td><input type="button" value="4" onclick="calcy.display.value+='4'"></td>
+                <td><input type="button" value="5" onclick="calcy.display.value+='5'"></td>
+                <td><input type="button" value="-" onclick="calcy.display.value+= '-'"></td>
+            </tr>
+
+
+            <tr>
+                <td><input type="button" value="6" onclick="calcy.display.value+= '6'"></td>
+                <td><input type="button" value="7" onclick="calcy.display.value+= '7'"></td>
+                <td><input type="button" value="8" onclick="calcy.display.value+= '8'"></td>
+                <td><input type="button" value="*" onclick="calcy.display.value+= '*'"></td>
+            </tr>
+
+
+            <tr>
+                <td><input type="button" value="9" onclick="calcy.display.value+= '9'"></td>
+                <td><input type="button" value="C" onclick="calcy.display.value=calcy.display.value
+                .substr(0,calcy.display.value.length-1)"></td>
+                <td><input type="button" value="AC" onclick="calcy.display.value=''"></td>
+                <td><input type="button" value="/" onclick="calcy.display.value+= '/'"></td>
+            </tr>
+
+            <tr>
+                <td><input type="button" value="=" onclick="calcy.display.value=eval
+                (calcy.display.value)"></td>
+                
+            </tr>
+        </table>
+    </form>
+    
+</body>
+</html>
