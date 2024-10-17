@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM attr</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <h1>Dynamic Attractive Example</h1>
+    <a id="mylink" href="https://www.google.com/url">Go to Google</a>
+    <button id="showattrbutton">Show Attribute</button>
+    <button id="changeattrbutton">Change Attribute</button>
+
+    <script>
+        $(document).ready(function()
+    {
+        $("#showattrbutton").click(function()
+    {
+        var hrefvalue= $("#mylink").attr("href");
+        alert("the current href value is:" + hrefvalue);
+    });
+
+        $("#changeattrbutton").click(function()
+    {
+        var newhref = "http://www.bing.com";
+        $("#mylink").attr("href",newhref);
+        $("#mylink").text("go to bing");
+    });
+    });
+    </script>
+
+
+
+
+
+
+
+
+
+
+    <h1>Link Example </h1>
+    <a id="mylink" href="toggle.html">go to html</a>
+    <button id="showbutton">show</button>
+    <button id="changebutton">change</button>
+
+    <script>
+        $(document).ready(function()
+    {
+        $("#showbutton").click(function()
+    {
+        var hrefvalue= $("#mylink").attr("href");
+        alert("the current href value is :"+hrefvalue);
+    });
+
+
+       $("#changebutton").click(function()
+    {
+        var newhref = "http://www.bing.com";
+        $("#mylink").attr("href",newhref);
+        $("#mylink").text("go to bing");
+    });
+    });
+    </script>
+</body>
+</html>

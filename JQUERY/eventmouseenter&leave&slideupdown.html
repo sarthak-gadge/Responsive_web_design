@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event mouseenter & leave and slideup & dowm</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <script>
+        $(document).ready(function()
+    {
+        $("p").mouseenter(function()
+    {
+        $("ul").slideDown();
+    });
+
+    $("p").mouseleave(function()
+    {
+        $("ul").slideUp();
+    });
+    });
+    </script>
+    <p>Names</p>
+    <ul>
+        <li>sarthak</li>
+        <li>ravi</li>
+        <li>sanket</li>
+        <li>sagar</li>
+    </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    $(document).ready(function()
+{
+    $("p").mouseenter(function()
+{
+    $("ul").slideDown();
+});
+
+    $("p").mouseleave(function()
+{
+    $("ul").slideUp();
+});
+});
+</script>
+
+<p>SeedInfotech</p>
+
+<ul>
+    <li>java fullstack</li>
+    <li>fronted</li>
+    <li>Backend</li>
+    <li>java</li>
+</ul>
+
+
+
+
+
+
+
+</body>
+</html>

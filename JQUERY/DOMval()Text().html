@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM val() and text()</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <script>
+        $(document).ready(function()
+    {
+        $("#btn1").click(function()
+    {
+        alert($("#p1").text());});
+
+       $("#btn2").click(function()
+    {
+        alert("Hello"+$("#fname").val());})
+    });
+    </script>
+    <p id="p1">This is JQUERY</p>
+    <button id="btn1">Click Here</button><br><br>
+
+    <input type="text" id="fname"><br><br>
+    <button id="btn2">First Name</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    $(document).ready(function()
+{
+    $("#btn1").click(function()
+{
+    alert($("#p1").text());
+})
+
+   $("#btn2").click(function()
+{
+    alert("hello"+$("#fname").val());
+})
+})
+
+
+</script>
+<p id="p1">SeedInfotech</p>
+<button id="btn1">Click here</button><br><br>
+
+<input type="text" id="fname"><br><br>
+<button id="btn2">clickforname</button>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
